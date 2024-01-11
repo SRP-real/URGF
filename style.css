@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #264b4d;
+    text-align: center;
+    font-family: Arial, serif;
+    color: white;
+    font-weight: bolder;
+}
+
+#games {
+    margin: auto;
+}
+
+#games ul {
+    list-style: none;
+}
+
+#games ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.gameGenre {
+    font-size: small;
+}
+
+.gameButton {
+    display: block;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.gameButton:hover {
+    background-color: #2b2b2b
+}
+
+.gameButton:active {
+    background-color: #565656
+}
+
+.game {
+    background-color: grey;
+    border-radius: 10px;
+    margin: 50px;
+    width: 20%;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.gameTitle {
+    font-size: inherit;
+}
+
+.gameInfo {
+    font-size: inherit;
+}

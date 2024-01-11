@@ -8,20 +8,14 @@ body {
     font-weight: bolder;
 }
 
+
+
 #games {
-    margin: auto;
-}
-
-#games ul {
-    list-style: none;
-}
-
-#games ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
+
 
 .gameGenre {
     font-size: small;
@@ -61,4 +55,16 @@ body {
 
 .gameInfo {
     font-size: inherit;
+}
+
+
+@media (max-width: 768px) {
+    .game {
+        background-color: grey;
+        border-radius: 10px;
+        margin: 50px;
+        width: 75%;
+        position: relative;
+        padding-bottom: 40px;
+    }
 }
